@@ -1,0 +1,60 @@
+.note-form {
+    position: relative;
+    width: 500px;
+    margin: 30px auto 20px auto;
+    background: #fff;
+    padding: 15px;
+    border-radius: 7px;
+    box-shadow: 0 1px 5px rgb(138, 137, 137);
+}
+
+.note-form input,
+.note-form textarea {
+    width: 100%;
+    border: none;
+    padding: 4px;
+    outline: none;
+    font-size: 1.2rem;
+    font-family: inherit;
+    resize: none;
+}
+
+.note-form button {
+    position: absolute;
+    right: 18px;
+    bottom: -18px;
+    background-color: #FFBF00;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    outline: none;
+}
+
+.colour-options{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.colour-options input[type="radio"] {
+    display: none;
+}
+
+.colour-swatch {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease;
+    border: 2px solid transparent;
+}
+
+.colour-options input[type="radio"]:checked + .colour-swatch{
+    border: 2px solid #333;
+}

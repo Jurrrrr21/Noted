@@ -1,4 +1,8 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: "Playpen Sans Hebrew", regular400;
+}
+body{
+    background-color: #F8F1E4;
 }
