@@ -1,0 +1,9 @@
+header{
+    background-color: #FFBF00;
+    padding: 16px 32px;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.4);
+}
+
+header h1{
+    color: #fff;
+}
